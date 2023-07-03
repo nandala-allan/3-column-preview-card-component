@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card-component {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* height: 500px; */
+}
+
+.preview-card {
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  gap: 80px;
+  text-align: left;
+  height: 500px;
+  width: 307px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: hsl(0, 0%, 95%);
+  text-align: left;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 96%;
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  width: 80%;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 8px 0 0 8px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 8px 8px 0;
+}
+
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedan button:hover {
+  background-color: inherit;
+  color: hsl(0, 0%, 95%);
+}
+
+.suv button {
+  color: hsl(184, 100%, 22%);
+}
+
+.suv button:hover {
+  background-color: inherit;
+  color: hsl(0, 0%, 95%);
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+  background-color: inherit;
+  color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* media querries */
+
+@media (width: 768px) {
+  .card-component {
+    width: 95%;
+  }
+
+  .preview-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 50px;
+    text-align: left;
+  }
+
+  p {
+    line-height: 30px;
+  }
+
+  button {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 50px 0;
+  }
+  .card-component {
+    flex-direction: column;
+  }
+  .preview-card {
+    flex-direction: column;
+    gap: 50px;
+    width: 330px;
+  }
+
+  p {
+    padding-right: 20px;
+    line-height: 26px;
+  }
+
+  .sedan {
+    border-radius: 8px 8px 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 8px 8px;
+  }
+}
