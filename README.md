@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3columnpreviewcardcomponent-using-css-flexbox-f2HqNDxnOB](https://www.frontendmentor.io/solutions/3columnpreviewcardcomponent-using-css-flexbox-f2HqNDxnOB)
 - Live Site URL: [https://jazzy-dolphin-5366cd.netlify.app/](https://jazzy-dolphin-5366cd.netlify.app/)
 
 ## My process
