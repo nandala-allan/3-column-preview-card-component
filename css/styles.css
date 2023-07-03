@@ -36,9 +36,9 @@ main {
   display: flex;
   flex-direction: column;
   padding: 45px;
-  gap: 80px;
+  gap: 40px;
   text-align: left;
-  height: 500px;
+  height: 480px;
   width: 307px;
 }
 
