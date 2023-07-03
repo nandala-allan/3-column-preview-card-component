@@ -7,7 +7,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 
 img,
@@ -17,10 +16,6 @@ svg {
 }
 
 body {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   background-color: hsl(0, 0%, 95%);
 }
 
@@ -35,7 +30,6 @@ main {
   display: flex;
   justify-content: center;
   align-content: center;
-  /* height: 500px; */
 }
 
 .preview-card {
